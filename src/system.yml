@@ -1,5 +1,5 @@
 name: swnr
-title: "Stars Without Number: Revised and Cities Without Number"
+title: "Stars Without Number - German Edition"
 description: >-
   A system for playing Stars Without Number: Revised and Cities Without Number.
   CWN is in alpha state.
@@ -217,6 +217,9 @@ languages:
   - lang: en
     name: English
     path: lang/en.json
+  - lang: de
+    name: Deutsch
+    path: lang/de.json
 gridDistance: 2
 gridUnits: "m"
 minimumCoreVersion: 0.8.6

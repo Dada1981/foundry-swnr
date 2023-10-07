@@ -1,0 +1,804 @@
+ swnr:
+  title: "Stars Without Number: Revised"
+  CharacterActorSheet: Basic Sheet
+  stat:
+    long:
+      str: Kraft
+      dex: Geschick
+      con: Konstitution
+      int: Intelligenz
+      wis: Weisheit
+      cha: Charisma
+    short:
+      str: STR
+      dex: DEX
+      con: CON
+      int: INT
+      wis: WIS
+      cha: CHA
+  skills:
+    revised:
+      administer:
+        name: Verwalten (Administer)
+        text: >-
+          Eine Organisation leiten, Papierkram erledigen, Aufzeichnungen analysieren
+          und eine Insitution täglich am Laufen halten. Würfeln für bürokratisches
+          Fachwissen, Organisationsmanagement, Rechtswissel, Umgang mit Behörden
+          und das Verständnis dafür, wie Insitutionen wirklich funktionieren.
+      connect:
+        name: In Kontakt treten (Connect)
+        text: >-
+          Finde Personen, die hilfreich für deine Zwecke sein können, und bringe sie
+          dazu, mit dir zusammenzuarbeiten. Würfeln, um nützliche Verbindungen zu
+          anderen knüpfen, Personen zu finden, die du kennst, herauszufinden, wo du
+          illegale Waren und Dienstleistungen erhalten kannst, und dich mit fremden
+          Kulturen vertraut zu machen. Du kannst es anstelle von Gesprächen verwenden,
+          um Menschen, die du mithilfe dieser Fähigkeit findest, zu überzeugen.
+      exert:
+        name: Einsetzen (Exert)
+        text: >-
+          Anwendung von trainierter Schnelligkeit, Kraft oder Ausdauer bei einer körperlichen
+          Kraftanstrengung. Würfeln, um damit zu rennen, zu springen, zu klettern, etwas zu
+          werfen, zu heben, usw. Du kannst es als Kampffertigkeit einsetzen, wenn du Dinge wirfst,
+          obwohl es für andeere Zwecke nicht als Kampffertigkeit gilt.
+      fix:
+        name: Reparieren (Fix)
+        text: >-
+          Erschaffen und reparieren, sowohl einfacher, als auch komplexer Geräte. Die Komplexität
+          hängt von den Hintergrundkenntnissen deines Charakters ab. Ein Schmied einer verlorenen Welt wird
+          einige Zeit und Nachforschungen brauchen, um einen defekten Fusionsreaktor zu reparieren,
+          kann es aber schießlich schaffen. Würfeln, um Dinge zu reparieren, zu bauen, oder zu identifizieren,
+          wofür etwas gedacht ist.
+      heal:
+        name: Heilen (Heal)
+        text: >-
+          Wende medizinische und psychologische Behandlungen für Verletzte oder Gestörte an. Würfeln,
+          um Krankheiten zu heilen, Schwerverletzte zu stabilisieren, psychische Störungen zu behandeln
+          oder Krankheiten zu diagnistizieren.
+      know:
+        name: Wissen (Know)
+        text: >-
+          Wissen über akademische oder wissenschaftliche Fachgebiete haben. Würfeln, um planetare Ökologien
+          zu verstehen, sich an relevante Geschichte zu erinnern, wissenschaftliche Rätsel zu lösen und
+          grundlegende Fakten über seltene oder esoterische Themen zu kennen.
+      lead:
+        name: Führen (Lead)
+        text: >-
+          Überzeuge andere, ebenfalls das zu tun, was du versuchst zu erreichen. Gespräche können Sie vielleicht
+          davon überzeugen, dass es klug ist, dir zu folgen, aber "Führen" kann sie dazu bringen, es zu tun, auch
+          wenn sie denken, dass es keine gute Idee ist. Würfeln, um Truppen im Kampf anzuführen, andere zu
+          überzeugen, dir zu folgen, oder die Moral und Disziplin aufrechtzuerhalten.
+      notice:
+        name: Bemerken (Notice)
+        text: >-
+          Entdecke Unregelmäßigkeiten oder interessante Fakten über deine Umgebung. Würfeln, um Orte zu durchsuchen,
+          Hinterhalte zu erkennen, Dinge zu entdecken und den emotionalen Zustand anderer Menschen zu lesen.
+      perform:
+        name: Darstellen (Perform)
+        text: >-
+          Zeige eine darstellerische Fähigkeit. Würfeln, um zu tanzen, zu singen, eine Rede zu halten, zu schauspielern
+          oder auf andere Weise eine überzeugende oder emotional bewegende Vorstellung zu geben.
+      pilot:
+        name: Fliegen (Pilot)
+        text: >-
+          Nutze diese Fertigkeit, um Fahrzeuge zu steuern oder Tiere zu reiten. Würfeln, um Raumschiffe zu fliegen,
+          Fahrzeuge zu lenken, Tiere zu reiten, oder grundlegende Fahrzeugreparaturen durchzuführen. Diese Fertigkeit
+          hilft dir nicht bei Dingen, die vollständig außerhalb des Rahmens deiner Erfahrung oder Hintergrundkenntnisse
+          liegen. Ein Spielercharakter kann jedoch durch Übung seine Expertise erweitern.
+      program:
+        name: Programmieren (Program)
+        text: >-
+          Bedienen oder hacken von Computer- und Kommunikationshardware. Würfeln, um Computer zu programmieren oder zu
+          hacken, computerbetriebene Hardware zu kontrollieren, Kommunikationstechnologie zu bedienen oder Dinge zu entschlüsseln.
+      punch:
+        name: Schlagen (Punch)
+        text: >-
+          Verwende es als eine Kampffertigkeit, wenn du unbewaffnet kämpfst. Wenn dein Spielercharakter das regelmäßig
+          tun möchte, anstatt es als letzten Ausweg zu nutzen, solltest du die später beschriebene Spezialisierung
+          "Unbewaffneter Kämpfer" in Betracht ziehen.
+      shoot:
+        name: SChießen (shoot)
+        text: >-
+          Verwende es als Kampffertigkeit, wenn du Fernkampfwaffen einsetzt, seien es geworfene Steine, Bögen,
+          Laserpistolen, Kampfgewehre, oder Schiffsgeschütze.
+      sneak:
+        name: Schleichen (Sneak)
+        text: >-
+          Bewege dich, ohne Aufmerksamkeit zu erregen. Würfeln für Heimlichkeit, Verkleidung, Infiltration,
+          Fingerfertigkeit, Taschendiebstahl und das Überwinden von Sicherheitsvorkehrungen.
+      stab:
+        name: Stechen (Stab)
+        text: >-
+          Nutze es als Kampffertigkeit, wenn du Nahkampfwaffen führst, seien sie primitiver oder komplexer Art.
+      survive:
+        name: Überleben (Survive)
+        text: >-
+          Beschaffung von Nahrung, Wasser und Unterkunft in feindlichen Umgebungen und vermeide ihre natürlichen Gefahren.
+          Würfeln, um mit Tieren umzugehen, durch schwieriges Gelände zu navigieren, städtische Ressourcen zu beschaffen,
+          einfache Werkzeuge herzustellen und wilde Tiere oder Banden zu meiden.
+      talk:
+        name: Reden (Talk)
+        text: >-
+          Überzeuge andere Menschen von den Fakten, die du ihnen glauben machen willst. Was sie mit dieser Überzeugung tun,
+          ist vielleicht nicht ganz vorhersehbar. Würfeln, um andere im Gespräch zu überreden, zu bezaubern oder zu täuschen.
+      trade:
+        name: Handeln (Trade)
+        text: >-
+          Finde auf dem Markt, was du brauchst, und verkaufen, was du hast. Würfeln, um Dinge zu verkaufen oder zu kaufen,
+          um herauszufinden, wo schwer zu beschaffende oder illegale Waren erhältlich sind, um mit Zollbeamten umzugehen
+          oder ein Geschäft zu führen.
+      work:
+        name: Arbeit (Work)
+        text: >-
+          Dies ist eine universelle Fähigkeit für Berufe, die nicht durch andere Fähigkeiten repräsentiert werden.
+          Verwende sie, um in einem bestimmten Beruf, Kunst oder Handwerk zu arbeiten.
+    spaceMagic:
+      knowMagic:
+        name: Kenne Magie
+        text: ""
+      useMagic:
+        name: Nutze Magie
+        text: ""
+      sunblade:
+        name: Sonnenklinge
+        text: ""
+      fight:
+        name: Kampf
+        text: ""
+    classic:
+      artist:
+        name: Künstler
+        text: ""
+      athletics:
+        name: Athletik
+        text: ""
+      bureaucracy:
+        name: Bürokratie
+        text: ""
+      business:
+        name: Business
+        text: ""
+      combat-energy:
+        name: Kampf/Energie
+        text: ""
+      combat-gunnery:
+        name: Kampf/Geschütze
+        text: ""
+      combat-primitive:
+        name: Kampf/Primitiv
+        text: ""
+      combat-projectile:
+        name: Kampf/Projektil
+        text: ""
+      combat-psitech:
+        name: Kampf/Psitech
+        text: ""
+      combat-unarmed:
+        name: Kampf/Unbewaffnet
+        text: ""
+      computer:
+        name: Computer
+        text: ""
+      culture-alien:
+        name: Kultur/Alien/
+        text: ""
+      culture-criminal:
+        name: Kultur/Kriminelle
+        text: ""
+      culture-spacer:
+        name: Kultur/Spacer
+        text: ""
+      culture-traveller:
+        name: Kultur/Reisende
+        text: ""
+      culture:
+        name: Kultur/
+        text: ""
+      exosuit:
+        name: Exosuit
+        text: ""
+      gambling:
+        name: Glücksspiel
+        text: ""
+      history:
+        name: Geschichte
+        text: ""
+      instructor:
+        name: Ausbilder
+        text: ""
+      language:
+        name: Sprache
+        text: ""
+      leadership:
+        name: Führung
+        text: ""
+      navigation:
+        name: Navigation
+        text: ""
+      perception:
+        name: Wahrnehmung
+        text: ""
+      persuade:
+        name: Überzeugen
+        text: ""
+      profession:
+        name: Beruf/
+        text: ""
+      religion:
+        name: Religion
+        text: ""
+      science:
+        name: Wissenschaft
+        text: ""
+      security:
+        name: Sicherheit
+        text: ""
+      stealth:
+        name: Heimlichkeit
+        text: ""
+      steward:
+        name: Steward
+        text: ""
+      survival:
+        name: Überleben
+        text: ""
+      tactics:
+        name: Taktik
+        text: ""
+      tech-astronautic:
+        name: Technologie/Astronautik
+        text: ""
+      tech-maltech:
+        name: Technologie/Maltech
+        text: ""
+      tech-medical:
+        name: Technologie/Medinisch
+        text: ""
+      tech-postech:
+        name: Technologie/Postech
+        text: ""
+      tech-pretech:
+        name: Technologie/Pretech
+        text: ""
+      tech-psitech:
+        name: Technologie/Psitech
+        text: ""
+      vehicle-air:
+        name: Fahrzeuge/Luft
+        text: ""
+      vehicle-grav:
+        name: Fahrzeuge/Gravitation
+        text: ""
+      vehicle-land:
+        name: Fahrzeuge/Land
+        text: ""
+      vehicle-space:
+        name: Fahrzeuge/Raum
+        text: ""
+      vehicle-water:
+        name: Fahrzeuge/Wasser
+        text: ""
+    psionic:
+      biopsionics:
+        name: Bio-Psionik
+        text: >-
+          Meistere die Fähigkeiten der physischen Reparatur, Körperaugmentation und Formwandlung
+      metapsionics:
+        name: Meta-Psionik
+        text: >-
+          Meistere die Fähigkeiten, die die Nutzung anderer psychischer Kräfte aufheben, verstärken und formen.
+      precognition:
+        name: Vorhersehung
+        text: Meistere die Fähigkeit, zukünftige Ereignisse wahrzunehmen und die Wahrscheinlichkeiten zu kontrollieren.
+      telekinesis:
+        name: Telekinese
+        text: >-
+          Meistere die Fähigkeit zur ferngesteuerten Kontrolle kinetischer Energie, um Objekte zu bewegen und Kraftkonstrukte zu erschaffen.
+      telepathy:
+        name: Telepathie
+        text: Meistere die Fähigkeit, die Gedanken anderer zu lesen und zu beeinflussen.
+      teleportation:
+        name: Teleportation
+        text: Meistere die Kunst der physischen Versetzung von dir selbst und deinen Verbündeten.
+    original: {}
+    labels:
+      spaceMagic: Space Magic
+      classic: Classic
+      revised: Revised
+      psionic: Psionic
+  sheet:
+    background: Hintergrund
+    class: Klasse
+    homeworld: Heimatwelt
+    species: Spezies/Geschlecht
+    level: Level
+    stats: Statuswerte
+    base: Basis
+    boosts: Verstärkungen
+    bonus: Bonus
+    total: Total
+    modifier: Modifikator
+    temp: Temporär
+    mod: Modifikation
+    saves:
+      save: Sichern
+      luck: Glück
+      physical: Physisch
+      mental: Mental
+      evasion: Flucht
+    name: Name
+    armor-class: Rüstungsklasse
+    armor: Rüstung
+    hp: HP
+    permanent-strain: Dauerhafte Belastung
+    attack-bonus: Angriffs Bonus
+    system-strain: Systembelastung
+    ss: Belastung
+    ac: AC
+    ab: AB
+    credit-change: Hinzufügen/Entfernen
+    tabs:
+      biography: Biografie
+      debug: Sheet Debug
+      skills: Fähigkeiten
+      weapons: Waffen
+      inventory: Inventar
+      armor: Rüstung
+      foci: Foci
+      other: Anderes
+      powers: Kräfte
+      combat: Kampf
+      stats: Statuswerte
+    xp: XP
+    power: Macht
+    powers:
+      roll: Würfeln
+      duration: Dauer
+      save: Sichern
+      skill: Skill Button (z.B. Geschick/Pilot)
+      range: Reichweite
+      prepared: Vorbereitet?
+    resources: Ressourcen
+    delete-item: Gegenstand entfernen
+    show-item: Gegenstand zeigen
+    edit-item: Gegenstand bearbeiten
+    reload-item: Gegenstand neu laden
+    add-item: Gegenstand hinzufügen
+    search-item: Suche Gegenstand um hinzuzufügen
+    break-item: Gegenstand zerstören/deaktivieren
+    jury-rig: Gegenstand notdürftig reparieren
+    fix-item: Gegenstand reparieren
+    destroy-item: Gegenstand zerstören
+    ask: Fragen
+    description: "Beschreibung:"
+    ammoType: Munitions-Typ
+    longReload: Langes Nachladen
+    burst: Salve
+    magazine: Magazin
+    suppress: Deckungsfeuer
+    skill: Skill
+    employer: Arbeitgeber
+    source: Quelle
+    factionname: Gruppierung
+    movement: Bewegung
+    base-ac: Base AC
+    vs: vs
+    rollables: Würfelsets
+    roll-skill: Würfel Skill
+    hit-dice: Trefferwürfel
+    hd: Trefferwürfel pro Stufe (ohne CON-Modifikator)
+    command-points: Kommandopunkte
+    npc-command-points: NPC Schiff Kommandopunkte
+    unspent-skill: Nicht ausgegebene Skillpunkte
+    unspent-psy-skill: Nicht ausgegebene Psychic Skillpunkte
+    add-skill: Neuen Skill hinzufügen
+    level-up: Level Up
+    rest: Eine Nachtruhe
+    scene: Szene beenden
+    rest-desc: Eine Nachtruhe anwenden (Anstrengung zurücksetzen, Belastung reduzieren, HP heilen)?
+    rest-title: Eine Nachtruhe anwenden?
+    cyberware:
+      disabled: Deaktiviert
+      strain: Belastung
+      name: Cyberware
+    type:
+      mech: Mech
+      ship: Schiff
+      vehicle: Fahrzeug
+      drone: Drohne
+      desc: Schiff/Mech/Fahrzeug/Drohne
+    mech:
+      name: Mech Name
+      mechClass:
+        suit: Anzug
+        light: Leicht
+        heavy: Schwer
+      mech-class: Mech Klasse
+      mech-hull: Mech Panzerungstyp
+      pilot: Pilot
+    drone:
+      enc: Belastung
+      range: Reichweite
+      tl: TL
+      name: Drohnenname
+      fittings: Ausstattungen (Masse)
+      model: Modell
+      models:
+        custom: Custom
+        primitive-drone: Primitive Drohne
+        void-hawk: Void Hawk
+        stalker: Stalker
+        cuttlefish: Cuttlefish
+        ghostwalker: Ghostwalker
+        sleeper: Sleeper
+        pax: Pax
+        alecto: Alecto
+    vehicle:
+      tonnage: Tonnage
+      kmph: KM/H
+      tl: TL
+      name: Fahrzeugname
+      size: Größe
+      vehicle-class:
+        s: S
+        m: M
+        l: L
+    faction:
+      forceRating: Kraft Rating
+      cunningRating: Intelligenz Rating
+      wealthRating: Wohlstands Rating
+      facCreds: FacCreds
+      xp: XP
+      homeworld: Heimatwelt
+      tags: Tags
+      assets: Assets
+      assetType: Asset Type
+      baseOfInfluence: Einflussbasis
+      attackSource: Quelle
+      attackTarget: Ziel
+      attackDamage: Schaden
+      attackSpecial: Special Attack Note
+      counter: Zähler
+      note: Notiz
+      turnRoll: On Turn Log/Roll
+      stealthed: Ist getarnt?
+      tl: TL
+      rating: Rating
+      hp: HP
+      assets-tab: Assets
+      desc-tab: Beschreibung
+      tags-tab: Tags
+      log-tab: Log
+      add-tag: Tag hinzufügen
+      add-tag-custom: Custom Tag hinzufügen
+      remove-tag: Tag entfernen
+      remove-log: Log-Eintrag entfernen
+      add-log: Manuellen Log-Eintrag hinzufügen
+      remove-log-all: Alle Log-Einträge entfernen
+      active: Aktive Fraktion
+      attack-roll: Angriff würfeln
+      counter-roll: Konter würfeln
+      damage: Schaden
+      attack: Angriff
+      att-damage: Angriffsschaden
+      def-damage: Konterschaden
+      att-roll: Angreifer-Wurf
+      def-roll: Verteidiger-Wurf
+      factionGoal: Frantionsziel
+      factionGoalDesc: Ziel-Beschreibung
+      setGoal: Ziel setzen
+      location: Ort
+      maintenance: Wartung
+      income: Einkommen
+      unusable: Unbenutzbar
+      turn: Runde starten
+      setHomeworld: Fraktions-Heimatwelt auf {name} setzen?
+      abandonGoal: Aktuelles Ziel {name} aufgeben? Will lose income and no actions this turn/
+    ship:
+      life-support-days: Tage Lebenserhaltung
+      fuel: Treibstoff
+      power: Kraft
+      mass: Masse
+      speed: Geschwindigkeit
+      hard-points: Hardpoints
+      ship-class: Schiffsklasse
+      min-ship-class: Mindesklasse
+      ship-hull-type: Typ Schiffshülle
+      cargo: Kraft
+      operating-cost: Betriebskosten
+      maintenance-cost: Wartungskosten
+      amount-owed: Geschuldete Menge
+      credit-pool: Ship's Credit Pool
+      payment-amount: Zahlbetrag
+      payment-months: Monate zwischen Zahlungen
+      maintenance-months: Monate zwischen Wartungen
+      last-payment: Letztes Zahlungsdatum (YYYY/MM/DD)
+      cost: Kosten
+      last-maintenance: Letzte Wartung (YYYY/MM/DD)
+      calc-cost: Berechne Kosten für das Schiff (Verwende Hülle und Gegenstände)
+      make-payment: Zahlung tätigen (using ship's pool)
+      pay-maintenance: Wartung bezahlung (using ship's pool)
+      crew: Crew (Mindestens/Aktuell/Maximal)
+      shipHullType:
+        strikeFighter: Strike Fighter 
+        shuttle: Shuttle
+        freeMerchant: Free Merchant
+        patrolBoat: Patrol Boat
+        corvette: Corvette
+        heavyFrigate:  Heavy Frigate
+        bulkFreighter:  Bulk Freighter
+        fleetCruiser:  Fleet Cruiser
+        battleship:  Battleship
+        carrier: Carrier 
+        smallStation:  Small Station
+        largeStation: Large Station
+      shipClass: 
+        fighter: Fighter
+        frigate: Frigate
+        cruiser: Cruiser
+        capital: Capital
+      weapons: Waffen
+      weapon: Waffe
+      defense: Verteidigung
+      fittings: Fitting
+      stations: Stationen
+      weapons-tab: Waffen/Verteidigung/Fittings
+      notes-tab: Notizen/Beschreibung
+      crew-tab: Crewmitglieder
+      cost-tab: Kosten Schiff
+      cargo-tab: Fracht
+      crew-name: Crewmitglied
+      crew-skill-bonus: NPC Ship Crew Bonus
+      crew-skill-bonus-note: (Mod to attack and skill rolls)
+      name: Name
+      dmg: Dmg
+      qualities: Qualitäten
+      effect: Effekt
+      broken: Ist defekt?
+      destroyed: Ist zerstört?
+      jury-rigged: Ist notdürftig geflickt?
+      shooter: Schießerei
+      travel: Reisetage
+      spike: Spike Drill 
+      spike-drive: Spike Drive
+      crisis: Crisis
+      system-failure: Systemaufälle
+      repair-all: Alles reparieren
+      sensor-roll: Würfel Sensoren
+      refuel: Auftanken
+      costMultiplier: Skaliere Kosten nach Klasse
+      powerMultiplier: Skaliere Kraft nach Klasse
+      massMultiplier: Skaliere Masse nach Klasse
+      station:
+        captain: Captain
+        gunnery: Geschütze
+        bridge: Brücke
+        engineering: Technik
+        comms: Comms
+        role: Station
+        crew: Crew
+      cargo-name: Fracht Name / Beschreibung
+    tweaks: Tweaks
+  settings:
+    useRollNPCHD: Use NPC HD on token create?
+    useRollNPCHDHint: When creating a npc token, if the HP or Hit Dice (HD) has not been rolled, it will roll d8 HD for health automatically.
+    useHomebrewLuckSave: Use Homebrew Luck saves?
+    useHomebrewLuckSaveHint: Uses 16 - Level for the save, no modifiers, just pure luck
+    addShockMessage: Add Shock Damage Message?
+    addShockMessageHint: When attacking this adds another roll for shock damage in the attack chat message.
+    showTempAttrMod: Show Temporary Attribute Total Modifiers?
+    showTempAttrModHint: On the character sidebar show the temporary modifiers to an attribute (e.g. attribute damage)
+    attrRoll: Stat/Attribute Roll
+    attrRollHint: What action/roll, if any, to take on an stat roll/click?
+    attrRollNo: Nothing
+    attrRolld20: d20 + mod
+    attrRoll2d6: 2d6 + mod
+    attrRollUnder: Würfel W20 niedriger
+    attrRollUnderEqual: Würfel W20 niedriger oder gleich
+    attackRoll: Angriffswurf?
+    attackRollHint: What to roll for attacks?
+    useTrauma: Use Trauma?
+    useTraumaHint: Use CWN trauma dice for rolling attacks?
+    useCWNArmor: Use CWN Armor?
+    useCWNArmorHint: Use CWN armor options (soak, melee and ranged AC)?
+  chat:
+    dicepool: Würfel-Pool
+    difficulty: Schwierigkeit
+    modifier: Modifikator
+    roll: Würfeln
+    cancel: Abbrechen
+    skillCheck: Skill Check
+    savingThrow: Sicherungswurf
+    statApply: Statuswerte anwenden auf {name}
+    statRollFlavor: "{name} würfelt {stat}"
+    totalModifier: Total Modifikator
+    statRoll: Roll stats
+    savemoddesc: (Positiv macht es einfacher, negativ schwieriger)
+    spike:
+      fail3: >-
+        Katastrophale dimensionsübergreifene Energieeinwirkung.
+        Das Schiff taucht um einen Stern innerhalb von 1d6 Feldern um das Ziel herum auf,
+        wobei Antrieb und alle Systeme zerstört sind.
+      fail4-5: >-
+        Ein Scherschub überwältigt die internen Systeme.
+        Das Schiff taucht um den Stern auf, der dem Bohrpunkt am nächsten liegt. Es besteht
+        eine 50% Chance, dass jedes Systeme solange deaktiviert ist, bis es repariert wurde.
+        WEnn der Spike-Drive deaktiviert ist, behandel es, als wäre eine 3 geworfen worden.
+      fail6-8: >-
+        Leistungsanstieg. Ein System ist deaktiviert, bis es repariert wurde. Das Schiff bleibt
+        whrend der gesamten Basiszeit im Transit stecken, bevor ein weiterer Pilotencheck möglich
+        ist. Wenn der Spike-Drive ausfällt, behandel es, als wäre eine 3 geworden worden.
+      fail9-12: >-
+        Schiff abseits des Kurses. Verbringe die Basiszeit im Transit und führe
+        dann einen weiteren Pilotencheck durch.
+      fail13-15: >-
+        Schiff abseits des Kurses, jedoch frühzeitig bemerkt.
+        Führe einen weiteren Pilotencheck durch.
+      fail16-17: >-
+        Drill erfolgreich, dauert jedoch die doppelte Basiszeit.
+      fail18: Drill erfolgreich und pünktlich, durch blindes Glück.
+  ammo:
+    ammo: Standard Munition
+    missile: Raketen
+    none: None
+    special: Specialty
+    typeAPower: Typ A Power Zelle
+    typeBPower: Typ B Power Zelle
+    infinite: Unendlich
+  foci:
+    level2: "Level 2:"
+    level1: "Level 1:"
+    level: Current Level
+  item:
+    bundledCount: Stückzahl
+    cost: Kosten
+    encumbrance: Last
+    enc: Last
+    qty: Anz.
+    quality:
+      stock: Stock
+      label: Qualität
+      juryRigged: Notdürftig geflickt
+      mastercrafted: Meisterhaft gefertigt
+    techlevel: Tech Level
+    quantity: Anzahl
+    location: Ort
+    locationOther: Andere
+    locationStowed: Verstaut
+    locationReadied: Vorbereitet
+    range: Reichweite
+    favorite: Favorit
+  weapon:
+    shock:
+      label: Schock-Schaden
+      ac: AC
+    trauma:
+      label: Trauma
+      die: Trauma Die
+      rating: Trauma Rating
+      damage: Trauma Schaden
+    damage: Schaden
+    damageFormula: Schadensformel
+    attackBonus: Angriffs-Bonus
+    ammo: Munition
+    noSetSkill: No Skill Set
+    burst: Nutze Salvenfeuer
+    skillAddDamage: Skill erhöht Schaden
+    skillAddShockDamage: Skill erhöht Schock
+    remember: Remember these settings (do not ask again, reset in edit)
+  titles:
+    savingThrow: "{throwType} Sicherungswurf"
+  effort:
+    bonus: Bonus
+    current: Aktuell
+    day: Tag
+    scene: Szene
+    title: Aufwand
+    max: Max
+  dialog:
+    attackRoll: "{actorName} greift mit {weaponName} an?"
+    spikeRoll: "{actorName} macht Spike-Wurf"
+    sensorRoll: "{actorName} macht Sensor-Wurf"
+    sysFailure: "Würfel System-Fehler für {actorName}"
+    skillRoll: "Würfel Skill für {actorName}"
+    failure:
+      inc-drive: Antrieb einschließen (Spike Level Drop)
+      inc-wpn: Waffen einschließen
+      inc-fit: Fittings einschließen
+      inc-def: Verteidigung einschließen
+      what: Was soll ausfallen? <br>(deaktivieren eines bereits deaktivierten Systems wird es zerstören)
+      dest-all: Alles zerstören
+      break-all: Alles deaktivieren 
+      all-50: 50% Chance alle Systeme zu zerstören
+      break-1: Ein System deaktivieren
+    add-skills: Skills hinzufügen
+    add-bulk-skills: Add Bulk Skills to {actor}
+    tweak-char: "Tweaking options for {actorName}"
+    save-changes: "Änderungen speichern"
+    tweak:
+      adv-init: Initiative Advantage (roll 2x and keep higher)
+      quick-skill-1: Quick Skill 1
+      quick-skill-2: Quick Skill 2
+      quick-skill-3: Quick Skill 3
+      debtDisplay: Währung 1
+      owedDisplay: Währung 3
+      balanceDisplay: Währung 2
+      extra-effort-name: Extra Effort Name (leave blank to not show on sheet)
+      show-resource-list: >- 
+        Zeige auf der Registerkarte Kamp die optionale Ressourcenverfolgung an.
+        Dies ermöglicht es dir, eine beliebige Ressource hinzuzufügen, die einen
+        Wert und ein Maximum mit einem beliebigen Namen anzeigt (eigentlich nur 2 
+        Zahlen). Du kannst diese Attribute aus der Liste löschen.
+    hp: 
+      title: Confirm rolling level hit dice for {actor}.
+      text: "Confirm rolling {level} level hit dice for {actor}. Each level HD (includes CON mod) is {formula}, where max means taking the higher of the roll with modifiers or 1 (note this is not a fractional number like 0.1). This action will set the HP to the roll results or the current HP + 1, whatever is larger. To change the hitdie see the stats tab."
+      revised: Revised Expert/Psychic d6
+      revised-war: Revised Warrior/Partial Warrior d6+2
+      codex-mage: Arcanist / Magister d6-1
+      classic-psy: Classic Psychic d4
+      classic-exp: Classic Expert d6
+      classic-war: Classic Warrior d8
+  roll:
+    skillNeeded: Hey! Du musst einen Skill auswählen!
+  armor:
+    type:
+      combat: Kampf
+      label: Typ
+      powered: Powered
+      primitive: Primitiv
+      street: Straße
+    innateArmorClass: Angeborene Rüstungsklasse
+    equipped: Ausgerüstet
+    shield: Zählt als Schild
+    soak:
+      label: Soak
+    dr: Schadensreduktion
+    subtle: Ist unauffällig?
+    heavy: Ist schwer?
+    ranged: Fernkampf
+    melee: Nahkampf
+  npc:
+    reaction:
+      unknown: Unbekannt
+      hostile: Feindlich
+      negative: Negativ
+      neutral: Neutral
+      positive: Positiv
+      friendly: Freundlich
+    morale-check: Moral-Check
+    trained-skill: Gelernter Skill
+    attacks-per-turn: Angriffe pro Runde
+    attack-bonus-hit: Angriffs-Bonuswurf
+    attack-bonus-damage: Angriffs-Bonusschaden
+    abilities: Fertigkeiten
+    combat: Kampf
+    equipment: Ausrüstung
+    skilled-with-weapon: Geübt mit Waffen
+    morale:
+      failure: Versagt beim Moral-Check!
+      success: Erfolgreich beim Moral-Check!
+    skill:
+      trained: "{actor} nutzt seinen/ihren trainierten Skill."
+      untrained: "{actor} nutzt seinen/ihren untrainierten Skill."
+    unarmed: Unbewaffnet
+    saving:
+      failure: "{actor} failed (target: {target})"
+      success: "{actor} succeeded (target: {target})"
+  migration:
+    start: >-
+      SWNR: Starting migration from {oldVersion} to {newVersion}. Please let
+      this finish before closing.
+    done: "SWNR: Done Migration to {newVersion}"
+    needsGM: >-
+      SWNR: A GM needs to log in to do run {count} migrations from {oldVersion}
+      to {newVersion}!
+  credits:
+    debts: Schulden
+    balance: Kontostand
+    owed: Schulden
+  deleteTitle: Lösche {name}?
+  deleteCrew: Möchtest du {name} aus der Crew entfernen?
+  deletePilot: Möchtest du {name} als Piloten entfernen?
+  deleteContent: Are you sure you want to delete {name} from the actor {actor}? (hold shift to skip confirm dialog)
+  AddCurrency: Währung hinzufügen
+  InvalidNumber: Gib eine gültige Ganzzahl ein!
